@@ -20,7 +20,7 @@ import java.sql.ResultSet;
  * 			
  * 			oder datenBank nicht gestartet
  *java Databaseconnectivity
- *in JDBC fängt mit dem index 1
+ *in JDBC fängt mit dem index 1 an
  * @author Yasin
  *
  */

@@ -16,7 +16,7 @@ public class ErstesScreiben {
 		Statement verpackung = verbindung.createStatement();
 		
 		//INSERT INTO table_name VALUES (value1, value2, value3, ...);
-		String sqlEingabe = "INSERT INTO gummibaer VALUES(NULL,'Erdbeer','rot','5','2022-11-11')";
+		String sqlEingabe = "INSERT INTO gummibaer VALUES(NULL,'Erdbeer','rot','5','2021-12-11')";
 		verpackung.execute(sqlEingabe);
 		System.out.println("Schreiben abgeschlossen");
 	}

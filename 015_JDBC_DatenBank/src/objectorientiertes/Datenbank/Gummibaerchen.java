@@ -36,6 +36,14 @@ public class Gummibaerchen {
 	 * @return the primaerSchlussel
 	 */
 	public int getPrimaerSchlussel() {
+		if( primaerSchlussel == 0) {
+			System.out.println("Exeption!");
+			System.exit(-1);
+		} 
+		if(this.primaerSchlussel != 0) {
+			System.out.println("Schlüssel schon gesetzt Exception");
+			System.exit(-1);
+		}
 		return primaerSchlussel;
 	}
 
